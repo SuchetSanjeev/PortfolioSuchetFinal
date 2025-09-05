@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import CollabCode from "../../Assets/Projects/CollabCodeAI_landingpage.png";
+import SCRO from "../../Assets/Projects/Supply_chain_risk_optimization.png";
 import VercelApp1 from "../../Assets/Projects/Vercel_PersonalPortfolioWebsite.png";
 import StreamlitApp1 from "../../Assets/Projects/StreamlitApp_DFSCM.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import VITCMS from "../../Assets/Projects/VIT_complaint_management_system.png";
 import StreamlitApp2 from "../../Assets/Projects/StreamlitApp_EncryptedTrafficAnalysisUsingLLMs.png";
 
 function Projects() {
@@ -21,6 +21,39 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CollabCode}
+              isBlog={false}
+              title="AI driven collaborative coding platform"
+              description="A full-stack collaborative coding platform with real-time editing via WebSockets and AI-powered features like code explanation and bug fixing, powered by the Google Gemini API. Built with React, TypeScript, Node.js, and Firebase."
+              ghLink="https://github.com/SuchetSanjeev/Ai-driven-Collaboration-Code-Platform"
+              demoLink="https://ai-driven-collaboration-code-platfo.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={VITCMS}
+              isBlog={false}
+              title="VIT college Complain Management System"
+              description="A full-stack web application for VIT Men's Hostel to register, track, and manage daily complaints related to hostel facilities such as Wi-fi, Carpenter, AC, Plumber, Electrician, and Mess."
+              ghLink="https://github.com/isthatejas/ComplaintSystem_VIT"
+              demoLink="https://vit-hostel-complaint-new.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SCRO}
+              isBlog={false}
+              title="Supply Chain Optimization"
+              description="This project is a Streamlit-based AI dashboard designed to help supply chain managers predict potential order shortfalls and understand the risks associated to it using ML. It also integrates a Retrieval-Augmented Generation (RAG) system powered by LLaMA 3 via Ollama, allowing users to ask questions about the dataset."
+              ghLink="https://github.com/SuchetSanjeev/Supply_chain_Risk_Assessment-quantity-shortfall-Prediction-With-Smart-Query-Interface-"
+              demoLink="https://shortfallpredictionsupplychainsuchet.streamlit.app/" 
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={StreamlitApp1}
@@ -56,39 +89,6 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>

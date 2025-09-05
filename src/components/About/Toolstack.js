@@ -15,6 +15,12 @@ import {
   SiMacos,
   SiLinux,
   SiUbuntu,
+  SiJsonwebtokens,
+  SiWireshark,
+  SiCisco,
+  SiMongodb,
+  SiVirtualbox,
+  SiRender,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -52,6 +58,18 @@ function Toolstack() {
       </Col>
        <Col xs={4} md={2} className="tech-icons">
         <SiStreamlit />
+      </Col>
+       <Col xs={4} md={2} className="tech-icons">
+        <SiJsonwebtokens />
+      </Col>
+       <Col xs={4} md={2} className="tech-icons">
+        <SiWireshark />
+      </Col>
+       <Col xs={4} md={2} className="tech-icons">
+        <SiVirtualbox />
+      </Col>
+       <Col xs={4} md={2} className="tech-icons">
+        <SiRender />
       </Col>
     </Row>
   );

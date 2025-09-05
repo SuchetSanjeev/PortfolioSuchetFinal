@@ -24,20 +24,19 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Java and Python</b>
+                <b className="purple"> C++, Java, Python, SQL, Bash</b>
               </i>
               <br />
               <br />
               <p>
               My field of Interest's lie in building&nbsp;
-                <b className="purple"><i>AI agents</i></b> and to solve real world buisness problems
-                through{" "}
+                <b className="purple"><i>Projects</i></b> that tackling real world buisness problems
+                also automating manual labour applying concepts of{" "}
                 <b className="purple">
-                  <i>data science</i>
+                  <i>AI/ML, data science, Full-Stack</i>
                 </b>
-                , and automating workflows using
-                <b className="purple"><i> DevOps</i></b> practices
-              </p>
+                <b className="purple"><i> DevOps, Cloud.</i></b>
+              {/* </p>
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">AI/ML</b> and
               <i>
@@ -49,6 +48,21 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
+              </i>
+            </p> */}
+              </p>
+              And also apart from the above old school intro these are some humourous punch lines i like:<b className="purple"><i></i></b>
+              <i>
+                <b className="purple">
+                  {" "}
+                <p>
+                Treating my bad habits like bugs: identify, isolate, and patch.<br></br>
+                Trying to build a well-documented API for my emotions.<br></br>
+                My life's plan has thrown a few NullPointerExceptions.<br></br>
+                Optimizing my daily routine for lower latency and higher throughput.<br></br>
+                Some days feel like an infinite loop I can't Ctrl+C my way out of.<br></br>
+              </p>
+                </b>
               </i>
             </p>
           </Col>
