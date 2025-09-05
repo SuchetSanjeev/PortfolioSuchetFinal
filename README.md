@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  My personal Portfolio Website<br/>
   <a href="https://portfolio-suchet-final.vercel.app/" target="_blank">Suchet.tech</a>
   <!-- put vercel link -->
 </h2>
