@@ -11,8 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Suchet Sanjeev Patil </span>
             from <span className="purple"> Bangalore, India.</span>
             <br />
-            I’m currently pursuing a B.Tech in Information Technology at VIT Vellore 
-            and interning at ZeroZeta, where I work on real-world applications involving machine learning and data pipelines.
+            I’m a final year B.Tech Information Technology student studying at VIT Vellore.
+            Im currently working on various projects that solve real world buisness problems 
+            that tackle complex challenges also while automating your work.
             <br />
             <br />
             When I’m not coding, you’ll find me doing other things i love!
